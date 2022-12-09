@@ -1,0 +1,25 @@
+/* Barlow Font */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Epilogue:ital,wght@0,500;0,700;1,500;1,700&family=Inter:wght@400;700&display=swap");
+
+/* Fraunces Font */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Epilogue:ital,wght@0,500;0,700;1,500;1,700&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@400;700&display=swap");
+
+* {
+    --primary-soft-red: hsl(7, 99%, 70%);
+    --primary-yellow: hsl(51, 100%, 49%);
+    --primary-dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --primary-dark-blue: hsl(198, 62%, 26%);
+    --primary-dark-moderate-cyan: hsl(168, 34%, 41%);
+    --neutral-very-dark-desatuated-blue: hsl(212, 27%, 19%);
+    --neutral-very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --neutral-dark-grayish-blue: hsl(232, 10%, 55%);
+    --neutral-grayish-blue: hsl(210, 4%, 67%);
+    --neutral-white: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 18px;
+}
