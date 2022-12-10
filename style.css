@@ -24,6 +24,8 @@
 p {
     font-size: 18px;
     color: var(--neutral-dark-grayish-blue);
+    line-height: 1.5;
+    margin-bottom: 30px;
 }
 
 a {
@@ -34,7 +36,17 @@ a {
 
 h2 {
     font-family: "Fraunces", sans-serif;
+    font-weight: 900;
     font-size: 2.5rem;
+    color: var(--neutral-very-dark-desatuated-blue);
+    margin-bottom: 30px;
+}
+
+span {
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-decoration: solid underline 10px var(--primary-yellow);
 }
 
 button {
@@ -152,8 +164,8 @@ nav .logo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: flex-start;
+    text-align: left;
 }
 
 @media only screen and (max-width: 4000px) and (min-width: 600px) {
@@ -225,7 +237,7 @@ nav .logo {
     }
 
     .service__item {
-        height: 50vh;
+        height: 65vh;
     }
 
     .service__item-text {
