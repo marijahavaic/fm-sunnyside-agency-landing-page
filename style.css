@@ -23,12 +23,17 @@
 
 p {
     font-size: 18px;
+    color: var(--neutral-dark-grayish-blue);
 }
 
 a {
     text-decoration: none;
     color: inherit;
     padding-right: 30px;
+}
+
+h2 {
+    font-family: "Fraunces", sans-serif;
 }
 
 button {
@@ -127,6 +132,15 @@ nav .logo {
     text-align: center;
 }
 
+.transform {
+    height: 70vh;
+    width: 50%;
+    background-image: url("./images/mobile/image-transform.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 @media only screen and (max-width: 4000px) and (min-width: 600px) {
     header {
         background-image: url("./images/desktop/image-header.jpg");
@@ -170,12 +184,26 @@ nav .logo {
     #contactBtn {
         background-color: var(--neutral-white);
         border: 1px solid var(--neutral-white);
-        margin: 0;
+        margin: 0 20px 0 0;
     }
 
     #contactBtn:hover {
         background-color: var(--neutral-dark-grayish-blue);
         color: var(--neutral-white);
         border: none;
+    }
+
+    .service__item {
+        display: flex;
+        width: 100%;
+    }
+
+    .brand {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .transform {
+        background-image: url("./images/desktop/image-transform.jpg");
     }
 }
