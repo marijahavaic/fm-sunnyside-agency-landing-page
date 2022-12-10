@@ -14,19 +14,26 @@
                     <img src="./images/logo.svg" alt="Logo Sunnyside" />
                 </div>
                 <div class="dropdown">
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Projects</a>
-                    <button class="uppercase" id="contactBtn">Contact</button>
+                    <button class="openbtn" onclick="openDrop()">
+                        <img
+                            src="./images/icon-hamburger.svg"
+                            class="menu__icon"
+                            id="menuIcon"
+                            alt="Menu icon"
+                        />
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content__links">
+                            <a href="#">About</a>
+                            <a href="#">Services</a>
+                            <a href="#">Projects</a>
+                            <button class="uppercase" id="contactBtn">
+                                Contact
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <button class="openbtn" onclick="openNav()">
-                    <img
-                        src="./images/icon-hamburger.svg"
-                        class="menu__icon"
-                        id="menuIcon"
-                        alt="Menu icon"
-                    />
-                </button>
             </nav>
             <section class="header__text">
                 <h1 class="uppercase" id="headerTitle">We are creatives</h1>

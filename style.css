@@ -28,7 +28,7 @@ p {
 a {
     text-decoration: none;
     color: inherit;
-    padding-right: 10px;
+    padding-right: 30px;
 }
 
 button {
@@ -62,18 +62,49 @@ nav .logo {
 }
 
 #menuIcon {
-    display: none;
+    display: block;
 }
 
 .dropdown {
-    display: flex;
-    align-items: center;
+    position: relative;
+    display: inline-block;
+}
+
+.triangle {
+    margin-top: 20px;
+    border-top: 30px solid transparent;
+    border-right: 30px solid white;
+}
+.dropdown-content {
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 90vw;
+    min-width: 300px;
+    color: var(--neutral-very-dark-grayish-blue);
+    text-align: center;
+    z-index: 2;
+}
+
+.dropdown-content__links {
+    background-color: var(--neutral-white);
+    padding: 20px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 30px;
+    font-size: 1.25rem;
+}
+
+.dropdown-content button {
+    margin: 10px;
 }
 
 #contactBtn {
-    background-color: var(--neutral-white);
-    padding: 13px 20px;
-    border: 1px solid var(--neutral-white);
+    background-color: var(--primary-yellow);
+    padding: 15px 20px;
+    border: 1px solid var(--primary-yellow);
     border-radius: 30px;
     font-family: "Fraunces", sans-serif;
 }
@@ -98,5 +129,25 @@ nav .logo {
 @media only screen and (max-width: 4000px) and (min-width: 600px) {
     header {
         background-image: url("./images/desktop/image-header.jpg");
+    }
+
+    #menuIcon {
+        display: none;
+    }
+
+    .dropdown {
+        display: flex;
+        align-items: center;
+    }
+
+    #contactBtn {
+        background-color: var(--neutral-white);
+        border: 1px solid var(--neutral-white);
+    }
+
+    #contactBtn:hover {
+        background-color: var(--neutral-dark-grayish-blue);
+        color: var(--neutral-white);
+        border: none;
     }
 }
