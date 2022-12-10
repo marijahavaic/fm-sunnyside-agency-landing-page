@@ -34,6 +34,7 @@ a {
 
 h2 {
     font-family: "Fraunces", sans-serif;
+    font-size: 2.5rem;
 }
 
 button {
@@ -133,12 +134,26 @@ nav .logo {
 }
 
 .transform {
-    height: 70vh;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     background-image: url("./images/mobile/image-transform.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.service__item {
+    height: 30vh;
+}
+
+.service__item-text {
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 @media only screen and (max-width: 4000px) and (min-width: 600px) {
@@ -205,5 +220,16 @@ nav .logo {
 
     .transform {
         background-image: url("./images/desktop/image-transform.jpg");
+        height: 100%;
+        width: 50%;
+    }
+
+    .service__item {
+        height: 50vh;
+    }
+
+    .service__item-text {
+        width: 50%;
+        padding: 150px;
     }
 }
