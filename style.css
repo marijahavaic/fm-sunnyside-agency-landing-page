@@ -345,10 +345,6 @@ nav .logo {
         background-size: cover;
     }
 
-    .transform {
-        background-image: url("./images/desktop/image-transform.jpg");
-    }
-
     .service__item-text {
         height: 100%;
         width: 50%;
