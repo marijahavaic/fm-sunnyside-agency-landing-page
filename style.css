@@ -167,13 +167,15 @@ nav .logo {
     text-align: center;
 }
 
-.transform {
+.bg__image {
     height: 45%;
     width: 100%;
-    background-image: url("./images/mobile/image-transform.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
+}
+.transform {
+    background-image: url("./images/mobile/image-transform.jpg");
 }
 
 .service__item {
@@ -211,12 +213,7 @@ nav .logo {
 }
 
 .standout {
-    height: 100%;
-    width: 100%;
     background-image: url("./images/mobile/image-stand-out.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
 }
 
 .collaboration strong::before {
@@ -232,6 +229,14 @@ nav .logo {
     bottom: -4px;
     z-index: -1;
     border-radius: 4px;
+}
+
+.graphic {
+    background-image: url("./images/mobile/image-graphic-design.jpg");
+}
+
+.photography {
+    background-image: url("./images/mobile/image-photography.jpg");
 }
 
 @media only screen and (max-width: 4000px) and (min-width: 600px) {
@@ -302,11 +307,14 @@ nav .logo {
         flex-direction: row-reverse;
     }
 
-    .transform {
-        background-image: url("./images/desktop/image-transform.jpg");
+    .bg__image {
         height: 100%;
         width: 50%;
         background-size: cover;
+    }
+
+    .transform {
+        background-image: url("./images/desktop/image-transform.jpg");
     }
 
     .service__item-text {
@@ -318,11 +326,16 @@ nav .logo {
 
     .standout {
         background-image: url("./images/desktop/image-stand-out.jpg");
-        width: 50%;
-        height: 100%;
-        background-size: cover;
     }
     .collaboration {
         display: flex;
+    }
+
+    .graphic {
+        background-image: url("./images/desktop/image-graphic-design.jpg");
+    }
+
+    .photography {
+        background-image: url("./images/desktop/image-photography.jpg");
     }
 }
