@@ -27,7 +27,7 @@ p {
     font-size: 18px;
     color: var(--neutral-dark-grayish-blue);
     line-height: 1.5;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 a {
@@ -49,6 +49,7 @@ span {
     font-family: var(--font-fraunces);
     font-weight: 900;
     letter-spacing: 2px;
+    align-self: flex-start;
 }
 
 button {
@@ -189,6 +190,45 @@ nav .logo {
     text-align: left;
 }
 
+.brand strong::before {
+    /* Highlight color */
+    font-family: "Fraunces", sans-serif;
+    background-color: var(--primary-yellow);
+    opacity: 0.2;
+    content: "";
+    position: absolute;
+    width: calc(100% + 14px);
+    height: 50%;
+    left: -6px;
+    bottom: -4px;
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.standout {
+    height: 100%;
+    width: 100%;
+    background-image: url("./images/mobile/image-stand-out.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.collaboration strong::before {
+    /* Highlight color */
+    font-family: "Fraunces", sans-serif;
+    background-color: var(--primary-soft-red);
+    opacity: 0.2;
+    content: "";
+    position: absolute;
+    width: calc(100% + 12px);
+    height: 50%;
+    left: -6px;
+    bottom: -4px;
+    z-index: -1;
+    border-radius: 4px;
+}
+
 @media only screen and (max-width: 4000px) and (min-width: 600px) {
     header {
         background-image: url("./images/desktop/image-header.jpg");
@@ -258,11 +298,17 @@ nav .logo {
     }
 
     .service__item {
-        height: 65vh;
+        height: 40vh;
     }
 
     .service__item-text {
         width: 50%;
-        padding: 150px;
+        padding: 135px;
+    }
+
+    .standout {
+        background-image: url("./images/desktop/image-stand-out.jpg");
+        height: 100%;
+        width: 50%;
     }
 }
