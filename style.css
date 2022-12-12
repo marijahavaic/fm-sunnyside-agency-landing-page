@@ -22,6 +22,14 @@
     padding: 0;
 }
 
+.dark_desaturated_cyan {
+    color: var(--primary-dark-desaturated-cyan);
+}
+
+.very_dark_blue {
+    color: var(--primary-dark-blue);
+}
+
 p {
     font-family: var(--font-barlow);
     font-size: 16px;
@@ -45,6 +53,12 @@ h2 {
     margin-bottom: 30px;
 }
 
+h4 {
+    color: var(--neutral-grayish-blue);
+    letter-spacing: 3.5px;
+    font-weight: 900;
+}
+
 span {
     font-family: var(--font-fraunces);
     font-weight: 900;
@@ -56,6 +70,13 @@ button {
     cursor: pointer;
     background-color: transparent;
     border: none;
+}
+
+small {
+    display: block;
+    color: var(--neutral-grayish-blue);
+    font-family: var(--font-barlow);
+    padding-top: 10px;
 }
 
 strong {
@@ -260,12 +281,27 @@ nav .logo {
     text-align: center;
 }
 
-.dark_desaturated_cyan {
-    color: var(--primary-dark-desaturated-cyan);
+.testemonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 30px;
 }
 
-.very_dark_blue {
-    color: var(--primary-dark-blue);
+.client {
+    padding: 20px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 30%;
+    margin: 40px;
+}
+
+.author {
+    letter-spacing: normal;
 }
 
 @media only screen and (max-width: 4000px) and (min-width: 600px) {
