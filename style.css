@@ -411,4 +411,27 @@ nav .logo {
         padding: 30px 160px;
         text-align: center;
     }
+
+    .testemonials {
+        padding: 100px;
+    }
+
+    .clients {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 30px;
+    }
+    /* 
+    .client {
+        padding: 20px;
+    }
+
+    .avatar {
+        border-radius: 50%;
+        width: 30%;
+        margin: 40px;
+    } */
 }
