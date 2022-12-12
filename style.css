@@ -30,6 +30,10 @@
     color: var(--primary-dark-blue);
 }
 
+.fill__dark-desaturated-cyan {
+    filter: invert(14%) sepia(12%) saturate(1810%) hue-rotate(170deg)
+        brightness(90%) contrast(87%);
+}
 p {
     font-family: var(--font-barlow);
     font-size: 16px;
@@ -307,11 +311,12 @@ nav .logo {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    height: 44vh;
+    height: 43vh;
 }
 
 .gallery__image {
     width: 50%;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
@@ -330,6 +335,22 @@ nav .logo {
 
 .sugarcubes {
     background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);
+}
+
+footer {
+    height: 35vh;
+    background-color: #90d4c5;
+    color: var(--primary-dark-moderate-cyan);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.links a:hover,
+.icon:hover {
+    color: var(--neutral-white);
 }
 
 @media only screen and (max-width: 4000px) and (min-width: 600px) {

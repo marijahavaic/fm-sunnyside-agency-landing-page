@@ -56,7 +56,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-I modified a Codepen to create the highlight from the designs. 
+- I modified a Codepen to create the highlight from the designs. 
 
 
 ```html
@@ -68,7 +68,7 @@ strong {
     position: relative;
 }
 
-strong::before {
+.brand strong::before {
     /* Highlight color */
     font-family: "Fraunces", sans-serif;
     background-color: var(--primary-yellow);
@@ -82,9 +82,9 @@ strong::before {
     z-index: -1;
     border-radius: 3px;
 }
-}
 ```
 
+- How to change colors on SVG with filter property
 
 
 ### Continued development
