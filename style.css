@@ -24,7 +24,7 @@
 
 p {
     font-family: var(--font-barlow);
-    font-size: 18px;
+    font-size: 16px;
     color: var(--neutral-dark-grayish-blue);
     line-height: 1.5;
     margin-bottom: 50px;
@@ -186,6 +186,10 @@ nav .logo {
     justify-content: flex-start;
 }
 
+.multimedia {
+    height: 141vh;
+}
+
 .service__item-text {
     width: 100%;
     height: 50%;
@@ -231,6 +235,14 @@ nav .logo {
     border-radius: 4px;
 }
 
+.multimedia .bg__image {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
 .graphic {
     background-image: url("./images/mobile/image-graphic-design.jpg");
 }
@@ -239,7 +251,27 @@ nav .logo {
     background-image: url("./images/mobile/image-photography.jpg");
 }
 
+.multimedia__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 3px;
+    text-align: center;
+}
+
+.dark_desaturated_cyan {
+    color: var(--primary-dark-desaturated-cyan);
+}
+
+.very_dark_blue {
+    color: var(--primary-dark-blue);
+}
+
 @media only screen and (max-width: 4000px) and (min-width: 600px) {
+    p {
+        font-size: 18px;
+    }
     span {
         align-self: flex-start;
     }
@@ -337,5 +369,14 @@ nav .logo {
 
     .photography {
         background-image: url("./images/desktop/image-photography.jpg");
+    }
+
+    .multimedia__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 30px 160px;
+        text-align: center;
     }
 }
