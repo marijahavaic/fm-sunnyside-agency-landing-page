@@ -30,10 +30,6 @@
     color: var(--primary-dark-blue);
 }
 
-.fill__dark-desaturated-cyan {
-    filter: invert(14%) sepia(12%) saturate(1810%) hue-rotate(170deg)
-        brightness(90%) contrast(87%);
-}
 p {
     font-family: var(--font-barlow);
     font-size: 16px;
