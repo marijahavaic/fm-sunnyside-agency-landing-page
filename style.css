@@ -304,6 +304,34 @@ nav .logo {
     letter-spacing: normal;
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    height: 44vh;
+}
+
+.gallery__image {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+.milkbottles {
+    background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
+}
+.orange {
+    background-image: url(./images/mobile/image-gallery-orange.jpg);
+}
+
+.cone {
+    background-image: url(./images/mobile/image-gallery-cone.jpg);
+}
+
+.sugarcubes {
+    background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);
+}
+
 @media only screen and (max-width: 4000px) and (min-width: 600px) {
     p {
         font-size: 18px;
@@ -424,14 +452,33 @@ nav .logo {
         text-align: center;
         padding: 40px 30px;
     }
-    /* 
-    .client {
-        padding: 20px;
+
+    .gallery {
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
 
-    .avatar {
-        border-radius: 50%;
-        width: 30%;
-        margin: 40px;
-    } */
+    .gallery__image {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+    }
+
+    .milkbottles {
+        background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+    }
+    .orange {
+        background-image: url(./images/desktop/image-gallery-orange.jpg);
+    }
+
+    .cone {
+        background-image: url(./images/desktop/image-gallery-cone.jpg);
+    }
+
+    .sugarcubes {
+        background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+    }
 }
