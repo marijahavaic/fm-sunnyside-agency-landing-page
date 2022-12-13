@@ -28,12 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile](./designs/mobile.png))
+![Mobile Dropdown](./designs/mobile-dropdown.png))
+![Desktop](./designs/desktop.png))
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/marijahavaic/fm-sunnyside-agency-landing-page)
+- Live Site URL: [Github Pages](https://marijahavaic.github.io/fm-sunnyside-agency-landing-page/)
 
 ## My process
 
