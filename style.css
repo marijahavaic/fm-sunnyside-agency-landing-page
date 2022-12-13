@@ -104,7 +104,8 @@ strong {
 }
 
 header {
-    height: 700px;
+    width: 100%;
+    height: 80vh;
     background-image: url("./images/mobile/image-header.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -121,6 +122,11 @@ nav {
 }
 nav .logo {
     width: 100%;
+    height: 100%;
+}
+
+.logo img {
+    height: 30px;
 }
 
 #menuIcon {
@@ -174,7 +180,7 @@ nav .logo {
 
 .header__text {
     width: 100%;
-    margin: 14vh auto;
+    margin: 10vh auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -390,16 +396,22 @@ footer {
     p {
         font-size: 18px;
     }
+
+    #headerTitle {
+        font-size: 3.5rem;
+    }
     span {
         align-self: flex-start;
     }
 
     header {
         background-image: url("./images/desktop/image-header.jpg");
+        width: 100%;
     }
 
     nav {
         padding: 30px 40px;
+        width: 100%;
     }
 
     #menuIcon {
@@ -425,11 +437,12 @@ footer {
     }
 
     .dropdown-content__links {
+        width: 100%;
         background-color: transparent;
         color: var(--neutral-white);
         float: right;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         padding: 0;
     }
@@ -443,7 +456,7 @@ footer {
     #contactBtn {
         background-color: var(--neutral-white);
         border: 1px solid var(--neutral-white);
-        margin: 0 20px 0 0;
+        margin: 0 40px 0 0;
     }
 
     #contactBtn:hover {
