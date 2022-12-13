@@ -441,8 +441,8 @@ footer {
     }
 
     #contactBtn:hover {
-        background-color: var(--neutral-dark-grayish-blue);
-        border: 1px solid var(--neutral-dark-grayish-blue);
+        background-color: hsla(0, 0%, 100%, 0.3);
+        border: 1px solid hsla(0, 0%, 100%, 0.01);
         color: var(--neutral-white);
     }
 
