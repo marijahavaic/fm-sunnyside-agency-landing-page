@@ -392,7 +392,7 @@ footer {
     padding: 0;
     margin: 0;
 }
-@media only screen and (max-width: 4000px) and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     p {
         font-size: 18px;
     }
@@ -465,7 +465,7 @@ footer {
     #contactBtn {
         background-color: var(--neutral-white);
         border: 1px solid var(--neutral-white);
-        margin: 0 40px 0 0;
+        margin: 0 60px 0 0;
     }
 
     #contactBtn:hover {
