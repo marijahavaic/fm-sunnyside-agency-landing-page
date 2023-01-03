@@ -34,8 +34,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/marijahavaic/fm-sunnyside-agency-landing-page)
+- Solution URL: [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-6Rch7cSbhO)
 - Live Site URL: [Github Pages](https://marijahavaic.github.io/fm-sunnyside-agency-landing-page/)
+- Source Code URL: [Github](https://github.com/marijahavaic/fm-sunnyside-agency-landing-page)
 
 ## My process
 
